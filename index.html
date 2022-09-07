@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		h1 {background: yellow;
+			font-size: 72px;
+		}
+	</style>
+</head>
+<body>
+	<h1 id="test">지난학기엔 html을 배웠지</h1>
+	<script type="text/javascript">
+
+	let button = "off";
+
+	test.onclick = function(){
+		
+		console.log("okay");
+
+		if (button == "off"){
+			test.style.fontSize = "300px";
+			button = "on";
+		}else if(button == "on"){
+			test.style.fontSize = "70px";
+			button = "off";
+		}
+	};
+
+
+	</script>
+</body>
+</html>
